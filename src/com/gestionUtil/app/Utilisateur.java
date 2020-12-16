@@ -70,7 +70,7 @@ public class Utilisateur extends Personne{
 	@Override
 	public String toString()
 	{
-		return super.toString()+"|"+this.service+"à un profile:"+this.profile.toString();
+		return super.toString()+"|"+this.service+"  à un profile:"+this.profile.toString();
 	}
 
 }
